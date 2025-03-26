@@ -91,7 +91,7 @@
         <div class="row">
           <!-- table Book -->
           <div class="col-12 col-lg-9">
-            <div class="col">
+            <div>
               <div class="d-flex justify-content-between py-3">
                 <h2>Catalogo libri</h2>
                 <button type="button" class="btn btn-primary">
@@ -99,7 +99,7 @@
                 </button>
               </div>
             </div>
-            <div class="col-12">
+            <div>
               <table class="table table-striped">
                 <thead>
                   <th>Titolo</th>
@@ -389,25 +389,28 @@
                   <h2>F.A.Q</h2>
                 </div>
                 <div class="card-body">
-                  <!-- ACCORDION1 -->
-                  <div class="accordion" id="accordionExample">
+                  <div
+                    class="accordion accordion-flush"
+                    id="accordionFlushExample"
+                  >
+                    <!-- ACCORDION1 -->
                     <div class="accordion-item">
                       <h2 class="accordion-header">
                         <button
                           class="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo"
+                          data-bs-target="#flush-collapseOne"
                           aria-expanded="false"
-                          aria-controls="collapseTwo"
+                          aria-controls="flush-collapseOne"
                         >
-                          Come posso accedere all'anagrafica utente?
+                          Come aggiungere un nuovo libro?
                         </button>
                       </h2>
                       <div
-                        id="collapseTwo"
+                        id="flush-collapseOne"
                         class="accordion-collapse collapse"
-                        data-bs-parent="#accordionExample"
+                        data-bs-parent="#accordionFlushExample"
                       >
                         <div class="accordion-body">
                           <strong
