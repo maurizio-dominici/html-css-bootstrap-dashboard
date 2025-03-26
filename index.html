@@ -33,7 +33,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-dark">
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./img/duck.png" alt="duck" width="50" height="50" />
@@ -89,6 +89,7 @@
     <main>
       <div class="container">
         <div class="row">
+          <!-- table Book -->
           <div class="col-12 col-lg-9">
             <div class="col">
               <div class="d-flex justify-content-between py-3">
@@ -100,17 +101,19 @@
             </div>
             <div class="col-12">
               <table class="table table-striped">
-                <tr>
+                <thead>
                   <th>Titolo</th>
                   <th class="d-none d-lg-table-cell">Data prestito</th>
                   <th>Stato</th>
                   <th>Azioni</th>
-                </tr>
+                </thead>
                 <!-- RIGA1 -->
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">-</td>
-                  <td><span class="badge text-bg-success">Success</span></td>
+                  <td>
+                    <span class="badge text-bg-success">Disponibile</span>
+                  </td>
                   <td>
                     <div>
                       <button
@@ -130,7 +133,9 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">-</td>
-                  <td><span class="badge text-bg-success">Success</span></td>
+                  <td>
+                    <span class="badge text-bg-success">Disponibile</span>
+                  </td>
                   <td>
                     <div>
                       <button
@@ -150,7 +155,9 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">18/02/2025</td>
-                  <td><span class="badge text-bg-success">Success</span></td>
+                  <td>
+                    <span class="badge text-bg-success">Disponibile</span>
+                  </td>
                   <td>
                     <div>
                       <button
@@ -170,7 +177,9 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">-</td>
-                  <td><span class="badge text-bg-danger">Success</span></td>
+                  <td>
+                    <span class="badge text-bg-danger">Non disponibile</span>
+                  </td>
                   <td>
                     <div>
                       <button
@@ -190,7 +199,9 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">-</td>
-                  <td><span class="badge text-bg-danger">Success</span></td>
+                  <td>
+                    <span class="badge text-bg-danger">Non disponibile</span>
+                  </td>
                   <td>
                     <div>
                       <button
@@ -210,7 +221,9 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">18/02/2025</td>
-                  <td><span class="badge text-bg-success">Success</span></td>
+                  <td>
+                    <span class="badge text-bg-success">Disponibile</span>
+                  </td>
                   <td>
                     <div>
                       <button
@@ -230,7 +243,7 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">-</td>
-                  <td><span class="badge bg-warning">Success</span></td>
+                  <td><span class="badge bg-warning">In prestito</span></td>
                   <td>
                     <div>
                       <button
@@ -250,7 +263,9 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">18/02/2025</td>
-                  <td><span class="badge text-bg-success">Success</span></td>
+                  <td>
+                    <span class="badge text-bg-success">Disponibile</span>
+                  </td>
                   <td>
                     <div>
                       <button
@@ -270,7 +285,7 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">-</td>
-                  <td><span class="badge bg-warning">Success</span></td>
+                  <td><span class="badge bg-warning">In prestito</span></td>
                   <td>
                     <div>
                       <button
@@ -290,7 +305,9 @@
                 <tr>
                   <td>Il signore degli anelli</td>
                   <td class="d-none d-lg-table-cell">-</td>
-                  <td><span class="badge text-bg-danger">Success</span></td>
+                  <td>
+                    <span class="badge text-bg-danger">Non disponibile</span>
+                  </td>
                   <td>
                     <div>
                       <button
