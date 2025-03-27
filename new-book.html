@@ -82,7 +82,7 @@
     </header>
     <main>
       <div class="container">
-        <form class="row gy-3">
+        <div class="row gy-3 p-3">
           <div class="my-4">
             <h4>Nuovo libro</h4>
           </div>
@@ -107,7 +107,7 @@
           </div>
           <!-- TITOLO -->
           <div class="col-12">
-            <label class="h6" for="title-imput">Cognome autore</label>
+            <label class="h6" for="title-imput">Titolo libro</label>
             <input
               class="form-control"
               id="title-imput"
@@ -148,7 +148,43 @@
               placeholder="Inserisci ISBN#"
             />
           </div>
-        </form>
+
+          <!-- NOTE -->
+          <div class="col-12">
+            <h6>Note</h6>
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="CIAO"
+                id="note-item"
+              ></textarea>
+              <label class="text-body-secondary" for="note-item"
+                >Inserisci eventuali note sul libro</label
+              >
+            </div>
+          </div>
+
+          <!-- CHECK -->
+
+          <div class="col-12">
+            <div class="form-check ms-1">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="check-item"
+              />
+              <label class="form-check-label" for="check-item">
+                Disponibile anche in digitale
+              </label>
+            </div>
+          </div>
+
+          <!-- BUTTON -->
+          <div class="col-auto">
+            <button class="btn btn-primary">Aggiungi</button>
+          </div>
+        </div>
       </div>
     </main>
 
